@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NordicDataLabs — Excel, Sheets & Data Automation</title>
+  <meta name="description" content="Precision spreadsheet design, data cleaning, and workflow automation for modern operations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #111726;
+      --card-border: #1e293b;
+      --accent: #0ea5e9;
+      --accent-glow: rgba(14, 165, 233, 0.25);
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --success: #10b981;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0 1rem;
+    }
+
+    header {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2.5rem 0 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-weight: 800;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-badge {
+      background: linear-gradient(135deg, #0ea5e9, #38bdf8);
+      color: #000;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      text-transform: uppercase;
+    }
+
+    .hero {
+      max-width: 800px;
+      margin: 5rem auto 4rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero h1 span {
+      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+
+    .services-grid {
+      max-width: 1100px;
+      margin: 0 auto 5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+    }
+
+    .card-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+      letter-spacing: 0.05em;
+    }
+
+    .card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .price-box {
+      display: flex;
+      align-items: baseline;
+      gap: 0.4rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .price {
+      font-size: 2rem;
+      font-weight: 800;
+    }
+
+    .btn {
+      display: inline-block;
+      text-align: center;
+      background: #f8fafc;
+      color: #090d16;
+      font-weight: 700;
+      padding: 0.75rem 1.25rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .btn-fiverr {
+      background: #1dbf73;
+      color: white;
+    }
+
+    footer {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 0;
+      border-top: 1px solid var(--card-border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <span>NordicDataLabs</span>
+      <span class="brand-badge">Ops</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Streamlined Data &amp; <span>Spreadsheet Systems</span></h1>
+      <p>Clean workflows, automated sheets, and inventory models built for growing businesses.</p>
+    </section>
+
+    <section class="services-grid">
+      <!-- Service 1 -->
+      <div class="card">
+        <div>
+          <div class="card-tag">Service 01</div>
+          <h3>Excel &amp; Sheets Data Cleaning</h3>
+          <p>Deduplication, formatting fixes, messy CSV exports restructured, and validation rules set up.</p>
+        </div>
+        <div>
+          <div class="price-box">
+            <span class="price">$29</span>
+            <span style="color: var(--text-muted)">/ task</span>
+          </div>
+          <a href="https://fiverr.com" class="btn btn-fiverr" style="width: 100%;">Order via Fiverr</a>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="card">
+        <div>
+          <div class="card-tag">Service 02</div>
+          <h3>Inventory &amp; Order Tracker</h3>
+          <p>Custom logistics template with live stock thresholds, order logs, and supplier tracking.</p>
+        </div>
+        <div>
+          <div class="price-box">
+            <span class="price">$49</span>
+            <span style="color: var(--text-muted)">/ sheet</span>
+          </div>
+          <a href="https://fiverr.com" class="btn btn-fiverr" style="width: 100%;">Order via Fiverr</a>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="card">
+        <div>
+          <div class="card-tag">Service 03</div>
+          <h3>Formula Fix &amp; Light Automation</h3>
+          <p>Debug broken formulas (ARRAYFORMULA, QUERY, VLOOKUP/XLOOKUP) and add lightweight Google Apps Script triggers.</p>
+        </div>
+        <div>
+          <div class="price-box">
+            <span class="price">$35</span>
+            <span style="color: var(--text-muted)">/ sheet</span>
+          </div>
+          <a href="https://fiverr.com" class="btn btn-fiverr" style="width: 100%;">Order via Fiverr</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; NordicDataLabs. Specialized Spreadsheet &amp; Data Operations.</p>
+  </footer>
+
+</body>
+</html>
