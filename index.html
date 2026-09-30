@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NordicDataLabs — Excel, Sheets & Data Automation</title>
-  <meta name="description" content="Precision spreadsheet design, data cleaning, and workflow automation for modern operations." />
+  <title>NordicDataLabs — Excel, Google Sheets & Data Automation</title>
+  <meta name="description" content="Precision spreadsheet architecture, data cleaning, and logistics workflow automation." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Lemon Squeezy Overlay Script -->
+  <script src="https://assets.lemonsqueezy.com/lemon.js" defer></script>
+
   <style>
     :root {
       --bg: #090d16;
       --card-bg: #111726;
       --card-border: #1e293b;
-      --accent: #0ea5e9;
-      --accent-glow: rgba(14, 165, 233, 0.25);
+      --accent: #ffc233; /* Lemon Squeezy signature warm accent */
       --text: #f8fafc;
       --text-muted: #94a3b8;
-      --success: #10b981;
     }
 
     * {
@@ -31,7 +33,7 @@
       background-color: var(--bg);
       color: var(--text);
       line-height: 1.6;
-      padding: 0 1rem;
+      padding: 0 1.25rem;
     }
 
     header {
@@ -54,7 +56,7 @@
     }
 
     .brand-badge {
-      background: linear-gradient(135deg, #0ea5e9, #38bdf8);
+      background: var(--accent);
       color: #000;
       font-size: 0.75rem;
       font-weight: 700;
@@ -78,7 +80,7 @@
     }
 
     .hero h1 span {
-      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      background: linear-gradient(135deg, #ffd056, #f59e0b);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -147,24 +149,22 @@
     }
 
     .btn {
-      display: inline-block;
+      display: block;
+      width: 100%;
       text-align: center;
-      background: #f8fafc;
-      color: #090d16;
+      background: var(--accent);
+      color: #111;
       font-weight: 700;
-      padding: 0.75rem 1.25rem;
+      padding: 0.85rem 1.25rem;
       border-radius: 8px;
       text-decoration: none;
+      cursor: pointer;
+      border: none;
       transition: opacity 0.2s ease;
     }
 
     .btn:hover {
       opacity: 0.9;
-    }
-
-    .btn-fiverr {
-      background: #1dbf73;
-      color: white;
     }
 
     footer {
@@ -183,69 +183,72 @@
   <header>
     <div class="brand">
       <span>NordicDataLabs</span>
-      <span class="brand-badge">Ops</span>
+      <span class="brand-badge">Solutions</span>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <h1>Streamlined Data &amp; <span>Spreadsheet Systems</span></h1>
-      <p>Clean workflows, automated sheets, and inventory models built for growing businesses.</p>
+      <h1>Automated Spreadsheets &amp; <span>Data Architecture</span></h1>
+      <p>Clean data models, logistics engines, and formula fixes. Fast delivery, enterprise-grade precision.</p>
     </section>
 
     <section class="services-grid">
-      <!-- Service 1 -->
+      <!-- Service 1: $29 -->
       <div class="card">
         <div>
           <div class="card-tag">Service 01</div>
           <h3>Excel &amp; Sheets Data Cleaning</h3>
-          <p>Deduplication, formatting fixes, messy CSV exports restructured, and validation rules set up.</p>
+          <p>Full deduplication, column restructuring, messy CSV normalization, and validation rules setup.</p>
         </div>
         <div>
           <div class="price-box">
             <span class="price">$29</span>
             <span style="color: var(--text-muted)">/ task</span>
           </div>
-          <a href="https://fiverr.com" class="btn btn-fiverr" style="width: 100%;">Order via Fiverr</a>
+          <!-- Korvaa YOUR_STORE ja CHECKOUT_1 Lemon Squeezyn linkillä -->
+          <a href="https://nordicdatalabs.lemonsqueezy.com/buy/CHECKOUT_1" class="lemonsqueezy-button btn">Order Now</a>
         </div>
       </div>
 
-      <!-- Service 2 -->
+      <!-- Service 2: $49 -->
       <div class="card">
         <div>
           <div class="card-tag">Service 02</div>
           <h3>Inventory &amp; Order Tracker</h3>
-          <p>Custom logistics template with live stock thresholds, order logs, and supplier tracking.</p>
+          <p>Turnkey logistics template with automated stock replenishment triggers, order logs, and supplier metrics.</p>
         </div>
         <div>
           <div class="price-box">
             <span class="price">$49</span>
-            <span style="color: var(--text-muted)">/ sheet</span>
+            <span style="color: var(--text-muted)">/ template</span>
           </div>
-          <a href="https://fiverr.com" class="btn btn-fiverr" style="width: 100%;">Order via Fiverr</a>
+          <!-- Korvaa YOUR_STORE ja CHECKOUT_2 Lemon Squeezyn linkillä -->
+          <a href="https://nordicdatalabs.lemonsqueezy.com/buy/CHECKOUT_2" class="lemonsqueezy-button btn">Order Now</a>
         </div>
       </div>
 
-      <!-- Service 3 -->
+      <!-- Service 3: $35 -->
       <div class="card">
         <div>
           <div class="card-tag">Service 03</div>
           <h3>Formula Fix &amp; Light Automation</h3>
-          <p>Debug broken formulas (ARRAYFORMULA, QUERY, VLOOKUP/XLOOKUP) and add lightweight Google Apps Script triggers.</p>
+          <p>Repair broken logic (ARRAYFORMULA, QUERY, XLOOKUP) and lightweight Apps Script process automation.</p>
         </div>
         <div>
           <div class="price-box">
             <span class="price">$35</span>
             <span style="color: var(--text-muted)">/ sheet</span>
           </div>
-          <a href="https://fiverr.com" class="btn btn-fiverr" style="width: 100%;">Order via Fiverr</a>
+          <!-- Korvaa YOUR_STORE ja CHECKOUT_3 Lemon Squeezyn linkillä -->
+          <a href="https://nordicdatalabs.lemonsqueezy.com/buy/CHECKOUT_3" class="lemonsqueezy-button btn">Order Now</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; NordicDataLabs. Specialized Spreadsheet &amp; Data Operations.</p>
+    <p>&copy; NordicDataLabs. Secured by Lemon Squeezy.</p>
   </footer>
 
 </body>
