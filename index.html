@@ -172,6 +172,21 @@
 
     .header-cta:hover { background: var(--blue-hover); }
 
+    .header-tools {
+      display: flex;
+      align-items: center;
+      gap: 1.1rem;
+    }
+
+    .header-nav a {
+      color: #e8eef5;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .header-nav a:hover { color: var(--white); }
+
     .hero {
       background:
         radial-gradient(ellipse 70% 80% at 100% 0%, rgba(74, 144, 217, 0.28), transparent 55%),
@@ -490,6 +505,36 @@
       background: var(--mist);
     }
 
+    .blog-teasers {
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    @media (min-width: 700px) {
+      .blog-teasers { grid-template-columns: 1fr 1fr; }
+    }
+
+    .blog-teasers a {
+      display: block;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.15rem 1.1rem 1.2rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .blog-teasers h3 {
+      font-size: 1.02rem;
+      color: var(--navy);
+      margin-bottom: 0.3rem;
+    }
+
+    .blog-teasers p {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
     .faq { background: var(--cloud); }
 
     .faq-list {
@@ -576,6 +621,7 @@
       .logo-header { width: 40px; height: 40px; }
       .brand-name { font-size: 0.95rem; }
       .header-cta { font-size: 0.8rem; padding: 0.5rem 0.7rem; }
+      .header-nav a { font-size: 0.88rem; }
       .hero { padding: 2.5rem 0 2.75rem; }
       section { padding: 2.75rem 0; }
       .hero h1 { font-size: 1.85rem; }
@@ -590,7 +636,12 @@
         <img class="logo logo-header" src="assets/logo.jpg" alt="NordicDataLabs logo" width="48" height="48">
         <span class="brand-name">NordicDataLabs</span>
       </a>
-      <a class="header-cta" href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/93d7b308-4b34-444c-83f2-d18d128f339f">Get the kit — €19</a>
+      <div class="header-tools">
+        <nav class="header-nav" aria-label="Primary">
+          <a href="/blog/">Blog</a>
+        </nav>
+        <a class="header-cta" href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/93d7b308-4b34-444c-83f2-d18d128f339f">Get the kit — €19</a>
+      </div>
     </div>
   </header>
 
@@ -805,6 +856,32 @@
         </div>
       </div>
     </section>
+
+    <section class="faq" id="from-the-blog">
+      <div class="container">
+        <p class="section-label">From the blog</p>
+        <h2>Practical guides</h2>
+        <p class="section-intro">Short articles on Instagram planning and a simple warehouse spreadsheet.</p>
+        <div class="blog-teasers">
+          <a href="/blog/free-instagram-content-calendar-template-small-business.html">
+            <h3>Free Instagram Content Calendar Template for Small Business</h3>
+            <p>A free 7-day Instagram calendar for freelancers and small service businesses, and how to expand it into a full month.</p>
+          </a>
+          <a href="/blog/how-to-plan-a-month-of-instagram-posts.html">
+            <h3>How to Plan a Month of Instagram Posts (Without Burning Out)</h3>
+            <p>A practical way to plan 30 days of Instagram posts in a few focused hours, without daily creative debt.</p>
+          </a>
+          <a href="/blog/instagram-caption-ideas-service-businesses.html">
+            <h3>Instagram Caption Ideas for Service Businesses (That Sound Human)</h3>
+            <p>Caption formulas and idea lists for freelancers, coaches, consultants, and local service businesses.</p>
+          </a>
+          <a href="/blog/simple-excel-inventory-tracker-small-warehouse.html">
+            <h3>Simple Excel Inventory Tracker for a Small Warehouse</h3>
+            <p>What to put in a simple Excel inventory and order tracker for a small warehouse, with no macros.</p>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -819,6 +896,7 @@
           <a href="#whats-inside">What’s inside</a>
           <a href="#who-its-for">Who it’s for</a>
           <a href="#faq">Good to know</a>
+          <a href="/blog/">Blog</a>
           <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/93d7b308-4b34-444c-83f2-d18d128f339f">Buy — €19</a>
         </nav>
       </div>

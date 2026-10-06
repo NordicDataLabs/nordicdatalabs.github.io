@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog | NordicDataLabs</title>
+  <meta name="description" content="Guides on Instagram content planning for freelancers and small service businesses, plus a simple Excel inventory tracker.">
+  <link rel="canonical" href="https://nordicdatalabs.github.io/blog/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nordicdatalabs.github.io/blog/">
+  <meta property="og:title" content="Blog | NordicDataLabs">
+  <meta property="og:description" content="Guides on Instagram content planning for freelancers and small service businesses, plus a simple Excel inventory tracker.">
+  <meta property="og:image" content="https://nordicdatalabs.github.io/og-image.png">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog | NordicDataLabs">
+  <meta name="twitter:description" content="Guides on Instagram content planning for freelancers and small service businesses, plus a simple Excel inventory tracker.">
+  <meta name="twitter:image" content="https://nordicdatalabs.github.io/og-image.png">
+  <style>
+    :root {
+      --navy: #0f2744;
+      --navy-2: #1e2a38;
+      --blue: #2563eb;
+      --blue-hover: #1d4ed8;
+      --sky: #4a90d9;
+      --cloud: #f4f7fa;
+      --mist: #e8eef5;
+      --ink: #1e293b;
+      --muted: #52627a;
+      --white: #ffffff;
+      --line: #d5e0ec;
+      --font: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      --max: 1080px;
+      --radius: 12px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background: var(--cloud);
+      line-height: 1.65;
+      font-size: 17px;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { display: block; max-width: 100%; }
+    a { color: var(--blue); }
+    :focus-visible { outline: 2px solid var(--sky); outline-offset: 3px; }
+    .container { width: min(100% - 2.5rem, var(--max)); margin-inline: auto; }
+    .logo { border-radius: 50%; object-fit: cover; object-position: center; background: #010814; flex-shrink: 0; }
+    .logo-header { width: 48px; height: 48px; border: 1px solid rgba(255,255,255,0.22); }
+    .site-header { position: sticky; top: 0; z-index: 100; background: var(--navy); box-shadow: 0 1px 0 rgba(255,255,255,0.06); }
+    .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 72px; }
+    .brand { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; color: var(--white); min-width: 0; }
+    .brand-name { font-weight: 700; font-size: 1.05rem; letter-spacing: -0.02em; }
+    .header-tools { display: flex; align-items: center; gap: 1.1rem; }
+    .header-nav a { color: #e8eef5; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+    .header-nav a:hover, .header-nav a[aria-current="page"] { color: var(--white); }
+    .header-cta { font-size: 0.9rem; font-weight: 700; padding: 0.55rem 0.95rem; background: var(--blue); color: var(--white); text-decoration: none; border-radius: 8px; white-space: nowrap; }
+    .header-cta:hover { background: var(--blue-hover); }
+    .page-intro { padding: 2.75rem 0 1rem; }
+    .section-label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--blue); margin-bottom: 0.45rem; }
+    h1.page-title, .article h1 { font-size: clamp(1.85rem, 4vw, 2.4rem); font-weight: 700; letter-spacing: -0.03em; color: var(--navy); line-height: 1.2; }
+    .lead { color: var(--muted); max-width: 62ch; margin-top: 0.7rem; }
+    .post-list { display: grid; gap: 0.9rem; padding-bottom: 3rem; }
+    .post-card { display: block; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.15rem 1.15rem 1.2rem; text-decoration: none; color: inherit; }
+    .post-card h2 { font-size: 1.15rem; color: var(--navy); letter-spacing: -0.02em; margin-bottom: 0.35rem; }
+    .post-card p { color: var(--muted); font-size: 0.98rem; }
+    .article { width: min(100% - 2.5rem, 720px); margin: 2.25rem auto 3rem; }
+    .article h1 { margin-bottom: 1rem; }
+    .article h2 { font-size: 1.35rem; color: var(--navy); margin: 1.8rem 0 0.55rem; letter-spacing: -0.02em; line-height: 1.25; }
+    .article h3 { font-size: 1.08rem; color: var(--navy); margin: 1.25rem 0 0.4rem; }
+    .article p { margin: 0.85rem 0; }
+    .article ul, .article ol { margin: 0.55rem 0 0.9rem 1.25rem; }
+    .article li { margin: 0.28rem 0; }
+    .article strong { font-weight: 700; }
+    .article table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.2rem; font-size: 0.95rem; }
+    .article th, .article td { border: 1px solid var(--line); padding: 0.5rem 0.6rem; text-align: left; vertical-align: top; }
+    .article th { background: var(--mist); color: var(--navy); }
+    .article blockquote { border-left: 3px solid var(--blue); margin: 1rem 0; padding: 0.15rem 0 0.15rem 1rem; color: var(--slate, #334155); }
+    .article hr { border: 0; border-top: 1px solid var(--line); margin: 1.6rem 0; }
+    .back-link { font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+    .cta-box { background: var(--white); border: 1px solid var(--line); border-top: 3px solid var(--blue); border-radius: var(--radius); padding: 1.15rem 1.2rem 1.25rem; margin-top: 2rem; }
+    .cta-box h2 { margin-top: 0; font-size: 1.2rem; }
+    .cta-box p { color: var(--muted); margin: 0.35rem 0 0.9rem; }
+    .cta-actions { display: flex; flex-wrap: wrap; gap: 0.65rem; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.8rem 1.15rem; font-family: inherit; font-size: 0.98rem; font-weight: 700; border-radius: 8px; text-decoration: none; border: 1px solid transparent; line-height: 1.2; }
+    .btn-primary { background: var(--blue); color: var(--white); border-color: var(--blue); }
+    .btn-primary:hover { background: var(--blue-hover); border-color: var(--blue-hover); }
+    .btn-secondary { background: var(--white); color: var(--navy); border-color: var(--blue); }
+    .btn-secondary:hover { background: var(--mist); }
+    .site-footer { background: var(--navy); color: #c5d4e4; padding: 2.25rem 0 1.75rem; font-size: 0.9rem; }
+    .footer-grid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem 2rem; margin-bottom: 1.25rem; }
+    .footer-brand { color: var(--white); font-weight: 700; margin-bottom: 0.2rem; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; align-items: center; }
+    .footer-links a { color: #d5e2ef; text-decoration: none; }
+    .footer-links a:hover { color: var(--white); text-decoration: underline; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 1rem; color: #9fb0c3; }
+    .footer-bottom a { color: #d5e2ef; }
+    .footer-bottom a:hover { color: var(--white); }
+    @media (max-width: 560px) {
+      .container, .article { width: min(100% - 1.75rem, var(--max)); }
+      .logo-header { width: 40px; height: 40px; }
+      .brand-name { font-size: 0.95rem; }
+      .header-cta { font-size: 0.8rem; padding: 0.5rem 0.7rem; }
+      .header-nav a { font-size: 0.88rem; }
+    }
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <img class="logo logo-header" src="/assets/logo.jpg" alt="NordicDataLabs logo" width="48" height="48">
+        <span class="brand-name">NordicDataLabs</span>
+      </a>
+      <div class="header-tools">
+        <nav class="header-nav" aria-label="Primary">
+          <a href="/blog/" aria-current="page">Blog</a>
+        </nav>
+        <a class="header-cta" href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/93d7b308-4b34-444c-83f2-d18d128f339f">Get the kit — €19</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="page-intro">
+      <div class="container">
+        <p class="section-label">Blog</p>
+        <h1 class="page-title">Notes for small operators</h1>
+        <p class="lead">Practical guides on Instagram planning for service businesses, and a simple Excel inventory tracker for a small warehouse.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container post-list">
+      <a class="post-card" href="/blog/free-instagram-content-calendar-template-small-business.html">
+        <h2>Free Instagram Content Calendar Template for Small Business</h2>
+        <p>A free 7-day Instagram calendar for freelancers and small service businesses, and how to expand it into a full month.</p>
+      </a>
+      <a class="post-card" href="/blog/how-to-plan-a-month-of-instagram-posts.html">
+        <h2>How to Plan a Month of Instagram Posts (Without Burning Out)</h2>
+        <p>A practical way to plan 30 days of Instagram posts in a few focused hours, without daily creative debt.</p>
+      </a>
+      <a class="post-card" href="/blog/instagram-caption-ideas-service-businesses.html">
+        <h2>Instagram Caption Ideas for Service Businesses (That Sound Human)</h2>
+        <p>Caption formulas and idea lists for freelancers, coaches, consultants, and local service businesses.</p>
+      </a>
+      <a class="post-card" href="/blog/simple-excel-inventory-tracker-small-warehouse.html">
+        <h2>Simple Excel Inventory Tracker for a Small Warehouse</h2>
+        <p>What to put in a simple Excel inventory and order tracker for a small warehouse, with no macros.</p>
+      </a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">NordicDataLabs</p>
+          <p>Practical content kits for freelancers and small service businesses.</p>
+          <p>Contact: <a href="mailto:nordicdatalabs@gmail.com">nordicdatalabs@gmail.com</a></p>
+        </div>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="/#whats-inside">What’s inside</a>
+          <a href="/#who-its-for">Who it’s for</a>
+          <a href="/#faq">Good to know</a>
+          <a href="/blog/" aria-current="page">Blog</a>
+          <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/93d7b308-4b34-444c-83f2-d18d128f339f">Buy — €19</a>
+        </nav>
+      </div>
+      <p class="footer-bottom">&copy; 2026 NordicDataLabs. All rights reserved. Also from NordicDataLabs — <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/a02133f1-7beb-4384-ac3d-9efcaf410b55">Logistics Inventory &amp; Order Tracker Pack</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
