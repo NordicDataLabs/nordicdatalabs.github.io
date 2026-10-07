@@ -620,34 +620,32 @@
 
     @media (max-width: 900px) {
       .header-inner {
-        flex-wrap: wrap;
+        display: flex;
+        flex-wrap: nowrap;
         align-items: center;
-        row-gap: 0.7rem;
-        column-gap: 1rem;
-        min-height: 0;
-        padding-top: 0.75rem;
-        padding-bottom: 0.8rem;
+        justify-content: space-between;
+        gap: 1rem;
+        min-height: 60px;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
       }
-      .brand { flex: 1 0 100%; width: 100%; min-width: 0; }
-      .brand-name { font-size: 1rem; white-space: nowrap; }
+      .brand { flex: 0 0 auto; width: auto; min-width: 0; }
+      .brand-name { display: none; }
       .header-tools {
-        flex: 1 0 100%;
-        width: 100%;
-        justify-content: flex-start;
+        flex: 0 0 auto;
+        width: auto;
+        margin-left: auto;
+        justify-content: flex-end;
         align-items: center;
-        gap: 1.25rem;
+        gap: 1rem;
         flex-shrink: 0;
       }
       .header-nav { flex-shrink: 0; }
-      .header-nav a { white-space: nowrap; font-size: 0.95rem; }
-      .header-cta { flex-shrink: 0; font-size: 0.85rem; padding: 0.5rem 0.85rem; }
+      .header-nav a { white-space: nowrap; }
+      .header-cta { flex-shrink: 0; font-size: 0.85rem; padding: 0.45rem 0.8rem; }
       .cta-long { display: none; }
       .cta-short { display: inline; }
       .logo-header { width: 40px; height: 40px; }
-    }
-
-    @media (max-width: 480px) {
-      .brand-name { display: none; }
     }
 
     @media (max-width: 560px) {
@@ -660,7 +658,7 @@
 </head>
 <body>
 
-  <!-- layout-v2 -->
+  <!-- layout-v3 -->
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#top">
