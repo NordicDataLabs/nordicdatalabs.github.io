@@ -618,7 +618,7 @@
 
     .footer-bottom a:hover { color: var(--white); }
 
-    @media (max-width: 640px) {
+    @media (max-width: 900px) {
       .header-inner {
         flex-wrap: wrap;
         align-items: center;
@@ -628,13 +628,14 @@
         padding-top: 0.75rem;
         padding-bottom: 0.8rem;
       }
-      .brand { flex: 1 1 100%; min-width: 0; }
+      .brand { flex: 1 0 100%; width: 100%; min-width: 0; }
       .brand-name { font-size: 1rem; white-space: nowrap; }
       .header-tools {
-        flex: 1 1 100%;
+        flex: 1 0 100%;
+        width: 100%;
         justify-content: flex-start;
         align-items: center;
-        gap: 1rem;
+        gap: 1.25rem;
         flex-shrink: 0;
       }
       .header-nav { flex-shrink: 0; }
@@ -643,6 +644,10 @@
       .cta-long { display: none; }
       .cta-short { display: inline; }
       .logo-header { width: 40px; height: 40px; }
+    }
+
+    @media (max-width: 480px) {
+      .brand-name { display: none; }
     }
 
     @media (max-width: 560px) {
@@ -655,6 +660,7 @@
 </head>
 <body>
 
+  <!-- layout-v2 -->
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#top">
