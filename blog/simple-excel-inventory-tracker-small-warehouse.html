@@ -12,6 +12,7 @@
   <meta property="og:description" content="Build or buy a simple Excel inventory and order tracker for small warehouses and e-commerce—no macros, reorder alerts, and a clear KPI view.">
   <meta property="og:image" content="https://nordicdatalabs.github.io/og-image.png">
   <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Bolde">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Simple Excel Inventory Tracker for a Small Warehouse">
   <meta name="twitter:description" content="Build or buy a simple Excel inventory and order tracker for small warehouses and e-commerce—no macros, reorder alerts, and a clear KPI view.">
@@ -27,12 +28,12 @@
   "dateModified": "2026-10-03",
   "author": {
     "@type": "Organization",
-    "name": "NordicDataLabs",
+    "name": "Bolde",
     "url": "https://nordicdatalabs.github.io/"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "NordicDataLabs",
+    "name": "Bolde",
     "url": "https://nordicdatalabs.github.io/"
   },
   "mainEntityOfPage": "https://nordicdatalabs.github.io/blog/simple-excel-inventory-tracker-small-warehouse.html"
@@ -69,8 +70,8 @@
     a { color: var(--blue); }
     :focus-visible { outline: 2px solid var(--sky); outline-offset: 3px; }
     .container { width: min(100% - 2.5rem, var(--max)); margin-inline: auto; }
-    .logo { border-radius: 50%; object-fit: cover; object-position: center; background: #010814; flex-shrink: 0; }
-    .logo-header { width: 48px; height: 48px; border: 1px solid rgba(255,255,255,0.22); }
+    .logo-mark { display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; background: #010814; color: #fff; font-weight: 800; letter-spacing: -0.04em; line-height: 1; flex-shrink: 0; }
+    .logo-header { width: 48px; height: 48px; font-size: 1.35rem; border: 1px solid rgba(255,255,255,0.22); }
     .site-header { position: sticky; top: 0; z-index: 100; background: var(--navy); box-shadow: 0 1px 0 rgba(255,255,255,0.06); }
     .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 72px; }
     .brand { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; color: var(--white); min-width: 0; }
@@ -133,7 +134,7 @@
       .header-cta { flex-shrink: 0; font-size: 0.85rem; padding: 0.45rem 0.8rem; }
       .cta-long { display: none; }
       .cta-short { display: inline; }
-      .logo-header { width: 40px; height: 40px; }
+      .logo-header { width: 40px; height: 40px; font-size: 1.15rem; }
     }
     @media (max-width: 560px) {
       .container, .article { width: min(100% - 1.75rem, var(--max)); }
@@ -148,9 +149,9 @@
   <!-- layout-v3 -->
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="/">
-        <img class="logo logo-header" src="/assets/logo.jpg" alt="NordicDataLabs logo" width="48" height="48">
-        <span class="brand-name">NordicDataLabs</span>
+      <a class="brand" href="/" aria-label="Bolde">
+        <span class="logo-mark logo-header" aria-hidden="true">B</span>
+        <span class="brand-name">Bolde</span>
       </a>
       <div class="header-tools">
         <nav class="header-nav" aria-label="Primary">
@@ -167,9 +168,9 @@
       <time datetime="2026-10-03" class="article-date">3 October 2026</time>
 <p>Small warehouses and early e-commerce shops rarely need an enterprise WMS on day one. They need a <strong>single workbook</strong> that answers: What do we have? What is on order? What is about to run out? What moved this week?</p>
 <p>Excel (or LibreOffice / Google Sheets with care) is still a sane starting point when you have dozens to a few thousand SKUs, one or two people updating stock, and no appetite for monthly SaaS fees yet. This guide covers what to put in a simple tracker, how to avoid common spreadsheet disasters, and when a ready-made pack saves time.</p>
-<p><strong>Product:</strong> <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/a02133f1-7beb-4384-ac3d-9efcaf410b55" data-goatcounter-click="checkout-logistics-article">Logistics Inventory &amp; Order Tracker Pack</a> — €19 Excel pack, <strong>no macros</strong>: inventory, orders, reorder alerts, KPI dashboard.<br />
+<p><strong>Product:</strong> <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/a02133f1-7beb-4384-ac3d-9efcaf410b55" data-goatcounter-click="checkout-logistics-article">Bolde Logistics Inventory Tracker</a> — €19 Excel pack, <strong>no macros</strong>: inventory, orders, reorder alerts, KPI dashboard.<br />
 <strong>Site:</strong> <a href="https://nordicdatalabs.github.io/">nordicdatalabs.github.io</a></p>
-<p><em>(If you also run Instagram for a service side-business, the free <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/94a02400-14cb-4afb-bcc8-5aa1a735caee" data-goatcounter-click="checkout-free-starter-article">7-Day Instagram Starter</a> is separate—only relevant if you need content planning, not stock.)</em></p>
+<p><em>(If you also run Instagram for a service side-business, the free <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/94a02400-14cb-4afb-bcc8-5aa1a735caee" data-goatcounter-click="checkout-free-starter-article">Free 7-Day Instagram Starter (Bolde sample)</a> is separate—only relevant if you need content planning, not stock.)</em></p>
 <h2>Who this approach is for</h2>
 <ul>
 <li>Small warehouse or stockroom with a manageable SKU list  </li>
@@ -300,7 +301,7 @@
 </ol>
 <h2>Build vs buy a template</h2>
 <p><strong>Build</strong> if you enjoy spreadsheet design and have a weekend. Use Tables (Ctrl+T), data validation for status lists, and conditional formatting for <code>YES</code> alerts.</p>
-<p><strong>Buy a ready pack</strong> if you want structure today: inventory, orders, reorder alerts, and a KPI view already laid out. NordicDataLabs’ <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/a02133f1-7beb-4384-ac3d-9efcaf410b55" data-goatcounter-click="checkout-logistics-article-2">Logistics Inventory &amp; Order Tracker Pack</a> is a <strong>€19</strong> Excel download with <strong>no macros</strong>, aimed at small warehouses and online sellers who want clearer handoffs without enterprise software.</p>
+<p><strong>Buy a ready pack</strong> if you want structure today: inventory, orders, reorder alerts, and a KPI view already laid out. Bolde's <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/a02133f1-7beb-4384-ac3d-9efcaf410b55" data-goatcounter-click="checkout-logistics-article-2">Bolde Logistics Inventory Tracker</a> is a <strong>€19</strong> Excel download with <strong>no macros</strong>, aimed at small warehouses and online sellers who want clearer handoffs without enterprise software.</p>
 <p>Honest limits: it will not replace a WMS, promise fewer stockouts by itself, or integrate with your shop platform automatically. You still enter data. The value is organised columns and alerts you can trust.</p>
 <h2>Migration checklist (from sticky notes / chat logs)</h2>
 <ol>
@@ -321,10 +322,10 @@
 </ul>
 <p>Until then, a disciplined workbook is a legitimate system.</p>
 <h2>Next step</h2>
-<p>Download the <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/a02133f1-7beb-4384-ac3d-9efcaf410b55" data-goatcounter-click="checkout-logistics-article-3">Logistics Inventory &amp; Order Tracker Pack</a> if you want a prepared layout, or copy the sheet structure above into a blank file this afternoon. More from NordicDataLabs (including Instagram planning tools for service businesses): <a href="https://nordicdatalabs.github.io/">https://nordicdatalabs.github.io/</a>.</p>
+<p>Download the <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/a02133f1-7beb-4384-ac3d-9efcaf410b55" data-goatcounter-click="checkout-logistics-article-3">Bolde Logistics Inventory Tracker</a> if you want a prepared layout, or copy the sheet structure above into a blank file this afternoon. More from Bolde (including Instagram planning tools for service businesses): <a href="https://nordicdatalabs.github.io/">https://nordicdatalabs.github.io/</a>.</p>
 <p>A simple Excel inventory tracker will not make purchasing decisions for you. It will make the numbers visible—and visibility is what small warehouses are usually missing.</p>
 <hr />
-<p><em>NordicDataLabs · nordicdatalabs@gmail.com</em></p>
+<p><em>Bolde · nordicdatalabs@gmail.com</em></p>
       <aside class="cta-box">
         <h2>Get the tracker</h2>
         <p>€19 one-time Excel pack for inventory, orders, and reorder points. The free Instagram starter is separate, for content planning only.</p>
@@ -339,7 +340,7 @@
     <div class="container">
       <div class="footer-grid">
         <div>
-          <p class="footer-brand">NordicDataLabs</p>
+          <p class="footer-brand">Bolde</p>
           <p>Practical content kits for freelancers and small service businesses.</p>
           <p>Contact: <a href="mailto:nordicdatalabs@gmail.com">nordicdatalabs@gmail.com</a></p>
         </div>
@@ -351,7 +352,7 @@
           <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/93d7b308-4b34-444c-83f2-d18d128f339f" data-goatcounter-click="checkout-socialkit-footer">Buy — €19</a>
         </nav>
       </div>
-      <p class="footer-bottom">&copy; 2026 NordicDataLabs. All rights reserved. Also from NordicDataLabs — <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/a02133f1-7beb-4384-ac3d-9efcaf410b55" data-goatcounter-click="checkout-logistics-footer">Logistics Inventory &amp; Order Tracker Pack</a>.</p>
+      <p class="footer-bottom">&copy; 2026 Bolde. All rights reserved. Also from Bolde — <a href="https://nordicdatalabs.lemonsqueezy.com/checkout/buy/a02133f1-7beb-4384-ac3d-9efcaf410b55" data-goatcounter-click="checkout-logistics-footer">Bolde Logistics Inventory Tracker</a>.</p>
     </div>
   </footer>
 <script data-goatcounter="https://nordicdatalabs.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
