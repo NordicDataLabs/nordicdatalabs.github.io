@@ -75,7 +75,7 @@
     .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 72px; }
     .brand { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; color: var(--white); min-width: 0; }
     .brand-name { font-weight: 700; font-size: 1.05rem; letter-spacing: -0.02em; }
-    .header-tools { display: flex; align-items: center; gap: 1.1rem; }
+    .header-tools { display: flex; align-items: center; gap: 1.1rem; flex-shrink: 0; }
     .header-nav a { color: #e8eef5; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
     .header-nav a:hover, .header-nav a[aria-current="page"] { color: var(--white); }
     .header-cta { font-size: 0.9rem; font-weight: 700; padding: 0.55rem 0.95rem; background: var(--blue); color: var(--white); text-decoration: none; border-radius: 8px; white-space: nowrap; }
@@ -86,9 +86,9 @@
     .lead { color: var(--muted); max-width: 62ch; margin-top: 0.7rem; }
     .post-list { display: grid; gap: 0.9rem; padding-bottom: 3rem; }
     .post-card { display: block; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.15rem 1.15rem 1.2rem; text-decoration: none; color: inherit; }
-    .post-card h2 { font-size: 1.15rem; color: var(--navy); letter-spacing: -0.02em; margin-bottom: 0.35rem; }
+    .post-card h2 { font-size: 1.15rem; color: var(--navy); letter-spacing: -0.02em; margin-bottom: 0.35rem; overflow-wrap: break-word; }
     .post-card p { color: var(--muted); font-size: 0.98rem; }
-    .article { width: min(100% - 2.5rem, 720px); margin: 2.25rem auto 3rem; }
+    .article { width: min(100% - 2.5rem, 720px); margin: 2.25rem auto 3rem; overflow-wrap: break-word; }
     .article h1 { margin-bottom: 1rem; }
     .article h2 { font-size: 1.35rem; color: var(--navy); margin: 1.8rem 0 0.55rem; letter-spacing: -0.02em; line-height: 1.25; }
     .article h3 { font-size: 1.08rem; color: var(--navy); margin: 1.25rem 0 0.4rem; }
@@ -97,7 +97,8 @@
     .article li { margin: 0.28rem 0; }
     .article strong { font-weight: 700; }
     .article table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.2rem; font-size: 0.95rem; }
-    .article th, .article td { border: 1px solid var(--line); padding: 0.5rem 0.6rem; text-align: left; vertical-align: top; }
+    .article th, .article td { border: 1px solid var(--line); padding: 0.5rem 0.6rem; text-align: left; vertical-align: top; overflow-wrap: break-word; }
+    .article code { overflow-wrap: anywhere; }
     .article th { background: var(--mist); color: var(--navy); }
     .article blockquote { border-left: 3px solid var(--blue); margin: 1rem 0; padding: 0.15rem 0 0.15rem 1rem; color: var(--slate, #334155); }
     .article hr { border: 0; border-top: 1px solid var(--line); margin: 1.6rem 0; }
@@ -122,10 +123,17 @@
     .footer-bottom a:hover { color: var(--white); }
     @media (max-width: 560px) {
       .container, .article { width: min(100% - 1.75rem, var(--max)); }
+      .header-inner { flex-wrap: wrap; align-items: center; row-gap: 0.65rem; min-height: 0; padding-top: 0.75rem; padding-bottom: 0.8rem; }
+      .brand { flex: 1 1 100%; }
+      .brand-name { font-size: 1rem; white-space: nowrap; }
+      .header-tools { flex: 1 1 100%; justify-content: space-between; gap: 0.75rem; }
       .logo-header { width: 40px; height: 40px; }
-      .brand-name { font-size: 0.95rem; }
       .header-cta { font-size: 0.8rem; padding: 0.5rem 0.7rem; }
       .header-nav a { font-size: 0.88rem; }
+      h1.page-title, .article h1, .article h2, .article h3 { overflow-wrap: break-word; }
+      .article table { width: 100%; table-layout: fixed; }
+      .cta-actions { flex-direction: column; align-items: stretch; }
+      .btn { width: 100%; text-align: center; }
     }
 </style>
 </head>
