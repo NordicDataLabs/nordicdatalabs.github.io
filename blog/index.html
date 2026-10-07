@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/favicon.png">
   <title>Blog | Bolde</title>
   <meta name="description" content="Guides on Instagram content planning for freelancers and small service businesses, plus a simple Excel inventory tracker.">
   <link rel="canonical" href="https://nordicdatalabs.github.io/blog/">
@@ -48,12 +50,11 @@
     a { color: var(--blue); }
     :focus-visible { outline: 2px solid var(--sky); outline-offset: 3px; }
     .container { width: min(100% - 2.5rem, var(--max)); margin-inline: auto; }
-    .logo-mark { display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; background: #010814; color: #fff; font-weight: 800; letter-spacing: -0.04em; line-height: 1; flex-shrink: 0; }
-    .logo-header { width: 48px; height: 48px; font-size: 1.35rem; border: 1px solid rgba(255,255,255,0.22); }
+    .logo-wordmark { display: block; height: 48px; width: auto; flex-shrink: 0; }
+    .logo-mark { display: none; width: 48px; height: 48px; flex-shrink: 0; }
     .site-header { position: sticky; top: 0; z-index: 100; background: var(--navy); box-shadow: 0 1px 0 rgba(255,255,255,0.06); }
     .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 72px; }
     .brand { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; color: var(--white); min-width: 0; }
-    .brand-name { font-weight: 700; font-size: 1.05rem; letter-spacing: -0.02em; }
     .header-tools { display: flex; align-items: center; gap: 1.1rem; flex-shrink: 0; }
     .header-nav a { color: #e8eef5; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
     .header-nav a:hover, .header-nav a[aria-current="page"] { color: var(--white); }
@@ -105,14 +106,18 @@
     @media (max-width: 900px) {
       .header-inner { display: flex; flex-wrap: nowrap; align-items: center; justify-content: space-between; gap: 1rem; min-height: 60px; padding-top: 0.4rem; padding-bottom: 0.4rem; }
       .brand { flex: 0 0 auto; width: auto; min-width: 0; }
-      .brand-name { display: none; }
+      .logo-wordmark { height: 40px; }
       .header-tools { flex: 0 0 auto; width: auto; margin-left: auto; justify-content: flex-end; align-items: center; gap: 1rem; flex-shrink: 0; }
       .header-nav { flex-shrink: 0; }
       .header-nav a { white-space: nowrap; }
       .header-cta { flex-shrink: 0; font-size: 0.85rem; padding: 0.45rem 0.8rem; }
       .cta-long { display: none; }
       .cta-short { display: inline; }
-      .logo-header { width: 40px; height: 40px; font-size: 1.15rem; }
+      .logo-mark { width: 40px; height: 40px; }
+    }
+    @media (max-width: 380px) {
+      .logo-wordmark { display: none; }
+      .logo-mark { display: block; }
     }
     @media (max-width: 560px) {
       .container, .article { width: min(100% - 1.75rem, var(--max)); }
@@ -128,8 +133,8 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="/" aria-label="Bolde">
-        <span class="logo-mark logo-header" aria-hidden="true">B</span>
-        <span class="brand-name">Bolde</span>
+        <img class="logo-wordmark" src="/assets/bolde-logo-header.png" alt="" width="143" height="48">
+        <img class="logo-mark" src="/assets/favicon.png" alt="" width="48" height="48">
       </a>
       <div class="header-tools">
         <nav class="header-nav" aria-label="Primary">
