@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img">
+  <title>Two server racks beside a lake and pine trees under a snowflake</title>
+  <path fill="#0F9488" d="M70.0 60.0 L71.8 68.2 L80.0 70.0 L71.8 71.8 L70.0 80.0 L68.2 71.8 L60.0 70.0 L68.2 68.2 Z"/>
+  <path fill="#1885FA" d="M300.0 38.0 L301.3 43.7 L307.0 45.0 L301.3 46.3 L300.0 52.0 L298.7 46.3 L293.0 45.0 L298.7 43.7 Z"/>
+  <path fill="#5EEAD4" d="M56.0 430.0 L57.3 435.7 L63.0 437.0 L57.3 438.3 L56.0 444.0 L54.7 438.3 L49.0 437.0 L54.7 435.7 Z"/>
+  <path fill="#0F9488" d="M752.0 420.0 L753.6 427.4 L761.0 429.0 L753.6 430.6 L752.0 438.0 L750.4 430.6 L743.0 429.0 L750.4 427.4 Z"/>
+  <!-- snowflake -->
+  <g transform="translate(680 92)" stroke="#1885FA" stroke-width="7" stroke-linecap="round" fill="none">
+    <g id="arm"><line x1="0" y1="0" x2="0" y2="-44"/><polyline points="-11,-32 0,-22 11,-32"/></g>
+    <use href="#arm" transform="rotate(60)"/><use href="#arm" transform="rotate(120)"/>
+    <use href="#arm" transform="rotate(180)"/><use href="#arm" transform="rotate(240)"/><use href="#arm" transform="rotate(300)"/>
+  </g>
+  <!-- lake -->
+  <ellipse cx="400" cy="436" rx="330" ry="34" fill="#1885FA" opacity="0.16"/>
+  <rect x="250" y="430" width="120" height="6" rx="3" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="420" y="442" width="90" height="6" rx="3" fill="#FFFFFF" opacity="0.7"/>
+  <!-- ground line -->
+  <rect x="110" y="396" width="580" height="10" rx="5" fill="#0F2744" opacity="0.08"/>
+  <!-- left pines -->
+  <g>
+    <rect x="137" y="352" width="10" height="46" rx="3" fill="#0F2744"/>
+    <polygon points="142,212 104,300 180,300" fill="#0F9488"/>
+    <polygon points="142,256 96,362 188,362" fill="#0F766E"/>
+    <rect x="196" y="364" width="8" height="34" rx="3" fill="#0F2744"/>
+    <polygon points="200,272 172,334 228,334" fill="#14B8A6"/>
+    <polygon points="200,302 166,372 234,372" fill="#0F9488"/>
+  </g>
+  <!-- right pines -->
+  <g>
+    <rect x="651" y="350" width="10" height="48" rx="3" fill="#0F2744"/>
+    <polygon points="656,206 618,296 694,296" fill="#0F766E"/>
+    <polygon points="656,252 610,360 702,360" fill="#0F9488"/>
+  </g>
+  <!-- rack shadows -->
+  <rect x="270" y="122" width="120" height="282" rx="16" fill="#0F2744" opacity="0.07"/>
+  <rect x="424" y="146" width="120" height="258" rx="16" fill="#0F2744" opacity="0.07"/>
+  <!-- rack 1 -->
+  <rect x="258" y="110" width="120" height="286" rx="16" fill="#0F2744"/>
+  <rect x="258" y="110" width="120" height="26" rx="13" fill="#1885FA"/>
+  <rect x="258" y="124" width="120" height="12" fill="#1885FA"/>
+  <g fill="#17345A">
+    <rect x="274" y="152" width="88" height="34" rx="7"/>
+    <rect x="274" y="196" width="88" height="34" rx="7"/>
+    <rect x="274" y="240" width="88" height="34" rx="7"/>
+    <rect x="274" y="284" width="88" height="34" rx="7"/>
+    <rect x="274" y="328" width="88" height="34" rx="7"/>
+  </g>
+  <g fill="#FFFFFF" opacity="0.22">
+    <rect x="286" y="165" width="40" height="8" rx="4"/>
+    <rect x="286" y="209" width="30" height="8" rx="4"/>
+    <rect x="286" y="253" width="44" height="8" rx="4"/>
+    <rect x="286" y="297" width="34" height="8" rx="4"/>
+    <rect x="286" y="341" width="40" height="8" rx="4"/>
+  </g>
+  <g>
+    <circle cx="348" cy="169" r="5" fill="#5EEAD4"/>
+    <circle cx="348" cy="213" r="5" fill="#1885FA"/>
+    <circle cx="348" cy="257" r="5" fill="#5EEAD4"/>
+    <circle cx="348" cy="301" r="5" fill="#5EEAD4"/>
+    <circle cx="348" cy="345" r="5" fill="#1885FA"/>
+  </g>
+  <!-- rack 2 -->
+  <rect x="412" y="134" width="120" height="262" rx="16" fill="#FFFFFF"/>
+  <rect x="412" y="134" width="120" height="26" rx="13" fill="#0F2744"/>
+  <rect x="412" y="148" width="120" height="12" fill="#0F2744"/>
+  <g fill="#E8EEF5">
+    <rect x="428" y="176" width="88" height="34" rx="7"/>
+    <rect x="428" y="220" width="88" height="34" rx="7"/>
+    <rect x="428" y="264" width="88" height="34" rx="7"/>
+    <rect x="428" y="308" width="88" height="34" rx="7"/>
+  </g>
+  <g fill="#0F2744" opacity="0.18">
+    <rect x="440" y="189" width="36" height="8" rx="4"/>
+    <rect x="440" y="233" width="44" height="8" rx="4"/>
+    <rect x="440" y="277" width="30" height="8" rx="4"/>
+    <rect x="440" y="321" width="40" height="8" rx="4"/>
+  </g>
+  <g>
+    <circle cx="502" cy="193" r="5" fill="#0F9488"/>
+    <circle cx="502" cy="237" r="5" fill="#1885FA"/>
+    <circle cx="502" cy="281" r="5" fill="#0F9488"/>
+    <circle cx="502" cy="325" r="5" fill="#0F9488"/>
+  </g>
+  <rect x="428" y="356" width="88" height="22" rx="7" fill="#1885FA"/>
+  <polyline points="442,367 452,367 458,360 466,374 472,367 502,367" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- check badge -->
+  <circle cx="540" cy="134" r="26" fill="#0F9488"/>
+  <polyline points="528,135 537,144 553,126" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
