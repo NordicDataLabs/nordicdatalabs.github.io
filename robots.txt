@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nordicdatalabs.github.io/sitemap.xml
+Sitemap: https://bolde.fi/sitemap.xml
