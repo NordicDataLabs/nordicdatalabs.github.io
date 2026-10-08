@@ -72,8 +72,8 @@
     a { color: var(--blue); }
     :focus-visible { outline: 2px solid var(--sky); outline-offset: 3px; }
     .container { width: min(100% - 2.5rem, var(--max)); margin-inline: auto; }
-    .logo-wordmark { display: block; height: 48px; width: auto; flex-shrink: 0; }
-    .logo-mark { display: none; width: 48px; height: 48px; flex-shrink: 0; }
+    .logo-mark { display: block; width: 48px; height: 48px; max-width: none; flex-shrink: 0; }
+    .brand-name { color: var(--white); font-weight: 800; font-size: 1.5rem; letter-spacing: -0.02em; line-height: 1; white-space: nowrap; }
     .site-header { position: sticky; top: 0; z-index: 100; background: var(--navy); box-shadow: 0 1px 0 rgba(255,255,255,0.06); }
     .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 72px; }
     .brand { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; color: var(--white); min-width: 0; }
@@ -126,20 +126,26 @@
     .footer-bottom a { color: #d5e2ef; }
     .footer-bottom a:hover { color: var(--white); }
     @media (max-width: 900px) {
-      .header-inner { display: flex; flex-wrap: nowrap; align-items: center; justify-content: space-between; gap: 1rem; min-height: 60px; padding-top: 0.4rem; padding-bottom: 0.4rem; }
-      .brand { flex: 0 0 auto; width: auto; min-width: 0; }
-      .logo-wordmark { height: 40px; }
-      .header-tools { flex: 0 0 auto; width: auto; margin-left: auto; justify-content: flex-end; align-items: center; gap: 1rem; flex-shrink: 0; }
+      .header-inner { display: flex; flex-wrap: nowrap; align-items: center; justify-content: space-between; gap: 0.65rem; min-height: 60px; padding-top: 0.4rem; padding-bottom: 0.4rem; }
+      .brand { flex: 0 0 auto; width: auto; gap: 0.45rem; }
+      .brand-name { font-size: 1.3rem; }
+      .header-tools { flex: 0 0 auto; width: auto; margin-left: auto; justify-content: flex-end; align-items: center; gap: 0.75rem; flex-shrink: 0; }
       .header-nav { flex-shrink: 0; }
       .header-nav a { white-space: nowrap; }
-      .header-cta { flex-shrink: 0; font-size: 0.85rem; padding: 0.45rem 0.8rem; }
+      .header-cta { flex-shrink: 0; font-size: 0.85rem; padding: 0.45rem 0.7rem; }
       .cta-long { display: none; }
       .cta-short { display: inline; }
       .logo-mark { width: 40px; height: 40px; }
     }
-    @media (max-width: 380px) {
-      .logo-wordmark { display: none; }
-      .logo-mark { display: block; }
+    @media (max-width: 400px) {
+      .header-inner { gap: 0.4rem; }
+      .brand { gap: 0.35rem; }
+      .header-tools { gap: 0.4rem; }
+      .header-nav a { font-size: 0.85rem; }
+      .header-cta { font-size: 0.78rem; padding: 0.38rem 0.5rem; }
+    }
+    @media (max-width: 339px) {
+      .header-nav { display: none; }
     }
     @media (max-width: 560px) {
       .container, .article { width: min(100% - 1.75rem, var(--max)); }
@@ -155,8 +161,8 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="/" aria-label="Bolde">
-        <img class="logo-wordmark" src="/assets/bolde-logo-header.png" alt="" width="143" height="48">
         <img class="logo-mark" src="/assets/favicon.png" alt="" width="48" height="48">
+        <span class="brand-name">Bolde</span>
       </a>
       <div class="header-tools">
         <nav class="header-nav" aria-label="Primary">
