@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img">
+  <title>Gift box, shopping tag, and a holiday countdown</title>
+  <path fill="#E06A24" d="M70.0 67.0 L72.0 76.0 L81.0 78.0 L72.0 80.0 L70.0 89.0 L68.0 80.0 L59.0 78.0 L68.0 76.0 Z"/>
+  <path fill="#1885FA" d="M740.0 56.0 L741.4 62.6 L748.0 64.0 L741.4 65.4 L740.0 72.0 L738.6 65.4 L732.0 64.0 L738.6 62.6 Z"/>
+  <path fill="#F0B27A" d="M48.0 413.0 L49.3 418.7 L55.0 420.0 L49.3 421.3 L48.0 427.0 L46.7 421.3 L41.0 420.0 L46.7 418.7 Z"/>
+  <path fill="#E06A24" d="M760.0 388.0 L762.2 397.8 L772.0 400.0 L762.2 402.2 L760.0 412.0 L757.8 402.2 L748.0 400.0 L757.8 397.8 Z"/>
+  <rect x="478" y="78" width="250" height="210" rx="22" fill="#0F2744" opacity="0.06"/>
+  <rect x="468" y="66" width="250" height="210" rx="22" fill="#FFFFFF"/>
+  <path d="M468 88 Q468 66 490 66 H676 Q698 66 698 88 V108 H468 Z" fill="#0F2744"/>
+  <circle cx="494" cy="86" r="5" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="512" cy="86" r="5" fill="#FFFFFF" opacity="0.45"/>
+  <rect x="620" y="78" width="52" height="12" rx="6" fill="#FFFFFF" opacity="0.28"/>
+  <rect x="488" y="122" width="44" height="34" rx="8" fill="#F4F7FA"/>
+  <rect x="542" y="122" width="44" height="34" rx="8" fill="#F4F7FA"/>
+  <rect x="596" y="122" width="44" height="34" rx="8" fill="#F8E2CC"/>
+  <rect x="650" y="122" width="44" height="34" rx="8" fill="#F4F7FA"/>
+  <rect x="488" y="166" width="44" height="34" rx="8" fill="#F4F7FA"/>
+  <rect x="542" y="166" width="44" height="34" rx="8" fill="#1885FA"/>
+  <rect x="596" y="166" width="44" height="34" rx="8" fill="#F4F7FA"/>
+  <rect x="650" y="166" width="44" height="34" rx="8" fill="#E06A24"/>
+  <rect x="488" y="210" width="44" height="34" rx="8" fill="#0F2744"/>
+  <rect x="542" y="210" width="44" height="34" rx="8" fill="#F4F7FA"/>
+  <rect x="596" y="210" width="44" height="34" rx="8" fill="#F8E2CC"/>
+  <rect x="650" y="210" width="44" height="34" rx="8" fill="#1885FA"/>
+  <rect x="468" y="292" width="250" height="64" rx="18" fill="#FFFFFF"/>
+  <circle cx="506" cy="324" r="8.0" fill="#0F2744"/>
+  <circle cx="548" cy="324" r="9.2" fill="#7A8BA3"/>
+  <circle cx="590" cy="324" r="10.4" fill="#1885FA"/>
+  <circle cx="632" cy="324" r="11.6" fill="#F0B27A"/>
+  <circle cx="674" cy="324" r="12.8" fill="#E06A24"/>
+  <rect x="126" y="248" width="230" height="168" rx="18" fill="#0F2744" opacity="0.08"/>
+  <rect x="112" y="232" width="230" height="168" rx="18" fill="#0F2744"/>
+  <rect x="98" y="188" width="258" height="58" rx="14" fill="#17345A"/>
+  <rect x="208" y="188" width="42" height="212" fill="#1885FA"/>
+  <rect x="98" y="204" width="258" height="30" fill="#2563EB"/>
+  <path d="M229 196 C196 196 176 160 198 142 C214 130 236 156 229 196 Z" fill="#1885FA"/>
+  <path d="M229 196 C262 196 282 160 260 142 C244 130 222 156 229 196 Z" fill="#2563EB"/>
+  <circle cx="229" cy="192" r="11" fill="#0F2744"/>
+  <path d="M262 188 C310 156 350 200 388 236" fill="none" stroke="#E06A24" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(348 236) rotate(-14)">
+  <rect x="0" y="0" width="86" height="118" rx="14" fill="#FFFFFF" stroke="#E06A24" stroke-width="4"/>
+  <circle cx="43" cy="24" r="8" fill="none" stroke="#C2410C" stroke-width="3"/>
+  <rect x="18" y="52" width="50" height="8" rx="4" fill="#F8E2CC"/>
+  <rect x="18" y="68" width="36" height="8" rx="4" fill="#E06A24"/>
+  </g>
+</svg>

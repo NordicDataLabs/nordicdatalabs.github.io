@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img">
+  <title>Spreadsheet beside stacked inventory boxes</title>
+  <path fill="#178A45" d="M64.0 62.0 L65.8 70.2 L74.0 72.0 L65.8 73.8 L64.0 82.0 L62.2 73.8 L54.0 72.0 L62.2 70.2 Z"/>
+  <path fill="#1885FA" d="M430.0 41.0 L431.3 46.7 L437.0 48.0 L431.3 49.3 L430.0 55.0 L428.7 49.3 L423.0 48.0 L428.7 46.7 Z"/>
+  <path fill="#178A45" d="M760.0 75.0 L762.0 84.0 L771.0 86.0 L762.0 88.0 L760.0 97.0 L758.0 88.0 L749.0 86.0 L758.0 84.0 Z"/>
+  <path fill="#86EFAC" d="M48.0 433.0 L49.3 438.7 L55.0 440.0 L49.3 441.3 L48.0 447.0 L46.7 441.3 L41.0 440.0 L46.7 438.7 Z"/>
+  <rect x="78" y="86" width="430" height="330" rx="22" fill="#0F2744" opacity="0.06"/>
+  <rect x="64" y="72" width="430" height="330" rx="22" fill="#FFFFFF"/>
+  <path d="M64 94 Q64 72 86 72 H472 Q494 72 494 94 V124 H64 Z" fill="#0F2744"/>
+  <rect x="84" y="90" width="70" height="12" rx="6" fill="#FFFFFF" opacity="0.3"/>
+  <rect x="168" y="90" width="54" height="12" rx="6" fill="#FFFFFF" opacity="0.18"/>
+  <rect x="236" y="90" width="54" height="12" rx="6" fill="#FFFFFF" opacity="0.18"/>
+  <rect x="304" y="90" width="54" height="12" rx="6" fill="#1885FA" opacity="0.9"/>
+  <rect x="80" y="140" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="176" y="140" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="272" y="140" width="84" height="36" rx="8" fill="#D8F3E4"/>
+  <rect x="368" y="140" width="100" height="36" rx="8" fill="#1885FA"/>
+  <rect x="92" y="152" width="46" height="8" rx="4" fill="#0F2744" opacity="0.18"/>
+  <rect x="80" y="188" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="176" y="188" width="84" height="36" rx="8" fill="#D8F3E4"/>
+  <rect x="272" y="188" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="368" y="188" width="100" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="92" y="200" width="56" height="8" rx="4" fill="#0F2744" opacity="0.18"/>
+  <rect x="80" y="236" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="176" y="236" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="272" y="236" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="368" y="236" width="100" height="36" rx="8" fill="#178A45"/>
+  <rect x="92" y="248" width="66" height="8" rx="4" fill="#0F2744" opacity="0.18"/>
+  <rect x="80" y="284" width="84" height="36" rx="8" fill="#D8F3E4"/>
+  <rect x="176" y="284" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="272" y="284" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="368" y="284" width="100" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="92" y="296" width="46" height="8" rx="4" fill="#0F2744" opacity="0.18"/>
+  <rect x="80" y="332" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="176" y="332" width="84" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="272" y="332" width="84" height="36" rx="8" fill="#D8F3E4"/>
+  <rect x="368" y="332" width="100" height="36" rx="8" fill="#0F2744"/>
+  <rect x="92" y="344" width="56" height="8" rx="4" fill="#0F2744" opacity="0.18"/>
+  <rect x="386" y="248" width="8" height="16" rx="2" fill="#FFFFFF"/>
+  <rect x="398" y="240" width="8" height="24" rx="2" fill="#FFFFFF"/>
+  <rect x="410" y="244" width="8" height="20" rx="2" fill="#FFFFFF" opacity="0.85"/>
+  <polygon points="638,250 673.88,223.48 673.88,301.48 638,328" fill="#17345A"/>
+  <polygon points="560,250 595.88,223.48 673.88,223.48 638,250" fill="#24507A"/>
+  <polygon points="560,250 638,250 638,328 560,328" fill="#0F2744"/>
+  <polygon points="682,196 714.2,172.2 714.2,242.2 682,266" fill="#E6EEF6"/>
+  <polygon points="612,196 644.2,172.2 714.2,172.2 682,196" fill="#F4F7FA"/>
+  <polygon points="612,196 682,196 682,266 612,266" fill="#FFFFFF"/>
+  <polygon points="612,150 641.44,128.24 641.44,192.24 612,214" fill="#146C36"/>
+  <polygon points="548,150 577.44,128.24 641.44,128.24 612,150" fill="#3DAB68"/>
+  <polygon points="548,150 612,150 612,214 548,214" fill="#178A45"/>
+  <polygon points="612,196 682,196 682,266 612,266" fill="none" stroke="#E6EEF6" stroke-width="2"/>
+</svg>
