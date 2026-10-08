@@ -3,21 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
   <link rel="icon" href="/assets/favicon.png" type="image/png">
-  <link rel="apple-touch-icon" href="/assets/favicon.png">
+  <link rel="icon" href="/assets/bolde-mark.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <title>Instagram Content Calendar &amp; Canva Templates | Bolde Social Launch Kit</title>
   <meta name="description" content="Canva-ready Instagram content calendar template for freelancers and small businesses. 30-day plan, caption bank, and blue visual templates. One-time €19.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://nordicdatalabs.github.io/">
   <meta property="og:title" content="Bolde Social Launch Kit — Instagram Content Calendar for Freelancers">
   <meta property="og:description" content="Plan a clearer month of Instagram content. 30-day calendar, 40 captions, 16 Canva-ready visual templates. €19 one-time. Built for freelancers and small service businesses.">
-  <meta property="og:image" content="https://nordicdatalabs.github.io/og-image.png">
+  <meta property="og:image" content="https://nordicdatalabs.github.io/assets/og-image.png">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="Bolde">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Bolde Social Launch Kit — Instagram Content Calendar for Freelancers">
   <meta name="twitter:description" content="Canva-ready Instagram pack: 30-day calendar, caption bank, 16 visual templates. For freelancers &amp; small businesses. €19.">
-  <meta name="twitter:image" content="https://nordicdatalabs.github.io/og-image.png">
+  <meta name="twitter:image" content="https://nordicdatalabs.github.io/assets/og-image.png">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -121,12 +125,15 @@
 
     .brand-name {
       color: var(--white);
-      font-weight: 800;
+      font-family: "Nunito", var(--font);
+      font-weight: 900;
       font-size: 1.5rem;
-      letter-spacing: -0.02em;
+      letter-spacing: -0.01em;
       line-height: 1;
       white-space: nowrap;
     }
+
+    .brand-o { color: #1885FA; }
 
     .logo-hero {
       display: block;
@@ -215,10 +222,11 @@
     .hero-mobile-wordmark {
       display: none;
       margin: 0 0 0.85rem;
-      font-weight: 800;
+      font-family: "Nunito", var(--font);
+      font-weight: 900;
       font-size: 2.5rem;
       line-height: 1;
-      letter-spacing: -0.03em;
+      letter-spacing: -0.01em;
       color: var(--white);
     }
 
@@ -355,11 +363,11 @@
     .hero-wordmark {
       grid-area: word;
       margin: 0;
-      font-family: var(--font);
-      font-weight: 800;
+      font-family: "Nunito", var(--font);
+      font-weight: 900;
       font-size: 3.5rem;
       line-height: 1;
-      letter-spacing: -0.03em;
+      letter-spacing: -0.01em;
       color: var(--white);
     }
 
@@ -625,7 +633,9 @@
 
     .footer-brand {
       color: var(--white);
-      font-weight: 700;
+      font-family: "Nunito", var(--font);
+      font-weight: 900;
+      letter-spacing: -0.01em;
       margin-bottom: 0.2rem;
     }
 
@@ -716,8 +726,8 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="Bolde">
-        <img class="logo-mark" src="/assets/favicon.png" alt="" width="48" height="48">
-        <span class="brand-name">Bolde</span>
+        <img class="logo-mark" src="/assets/bolde-mark.svg" alt="" width="48" height="48">
+        <span class="brand-name" role="img" aria-label="Bolde"><span aria-hidden="true">B<span class="brand-o">o</span>lde</span></span>
       </a>
       <div class="header-tools">
         <nav class="header-nav" aria-label="Primary">
@@ -732,7 +742,7 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <p class="hero-mobile-wordmark">Bolde</p>
+          <p class="hero-mobile-wordmark" role="img" aria-label="Bolde"><span aria-hidden="true">B<span class="brand-o">o</span>lde</span></p>
           <p class="badge">Launch offer</p>
           <h1>Plan a clearer month of content with the Bolde Social Launch Kit.</h1>
           <p class="hero-lead">
@@ -757,8 +767,8 @@
         </div>
         <aside class="hero-card" aria-label="Kit overview">
           <div class="hero-card-top">
-            <p class="hero-wordmark">Bolde</p>
-            <img class="logo-hero" src="/assets/favicon.png" alt="" width="72" height="72">
+            <p class="hero-wordmark" role="img" aria-label="Bolde"><span aria-hidden="true">B<span class="brand-o">o</span>lde</span></p>
+            <img class="logo-hero" src="/assets/bolde-mark.svg" alt="" width="72" height="72">
             <span class="hero-card-tagline">Social content for small businesses</span>
           </div>
           <ul>
@@ -970,7 +980,7 @@
     <div class="container">
       <div class="footer-grid">
         <div>
-          <p class="footer-brand">Bolde</p>
+          <p class="footer-brand" role="img" aria-label="Bolde"><span aria-hidden="true">B<span class="brand-o">o</span>lde</span></p>
           <p>Practical content kits for freelancers and small service businesses.</p>
           <p>Contact: <a href="mailto:nordicdatalabs@gmail.com">nordicdatalabs@gmail.com</a></p>
         </div>
