@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img">
+  <title>Sales pipeline board with client cards moving to won, beside a follow-up calendar</title>
+  <path fill="#4F46E5" d="M60 48 L62.16 57.84 L72 60 L62.16 62.16 L60 72 L57.84 62.16 L48 60 L57.84 57.84 Z"/>
+  <path fill="#1885FA" d="M420 28 L421.44 34.56 L428 36 L421.44 37.44 L420 44 L418.56 37.44 L412 36 L418.56 34.56 Z"/>
+  <path fill="#4F46E5" d="M764 63 L765.98 72.02 L775 74 L765.98 75.98 L764 85 L762.02 75.98 L753 74 L762.02 72.02 Z"/>
+  <path fill="#A5B4FC" d="M48 436 L49.44 442.56 L56 444 L49.44 445.44 L48 452 L46.56 445.44 L40 444 L46.56 442.56 Z"/>
+  <rect x="60" y="90" width="120" height="330" rx="18" fill="#FFFFFF" opacity="0.75"/>
+  <rect x="74" y="106" width="92" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="84" y="148" width="100" height="72" rx="12" fill="#0F2744" opacity="0.06"/><rect x="70" y="134" width="100" height="72" rx="12" fill="#FFFFFF"/>
+  <rect x="82" y="150" width="62" height="9" rx="4.5" fill="#0F2744" opacity="0.3"/>
+  <rect x="82" y="168" width="44" height="8" rx="4.0" fill="#0F2744" opacity="0.14"/>
+  <rect x="82" y="184" width="34" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="84" y="234" width="100" height="72" rx="12" fill="#0F2744" opacity="0.06"/><rect x="70" y="220" width="100" height="72" rx="12" fill="#FFFFFF"/>
+  <rect x="82" y="236" width="62" height="9" rx="4.5" fill="#0F2744" opacity="0.3"/>
+  <rect x="82" y="254" width="44" height="8" rx="4.0" fill="#0F2744" opacity="0.14"/>
+  <rect x="82" y="270" width="34" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="84" y="320" width="100" height="72" rx="12" fill="#0F2744" opacity="0.06"/><rect x="70" y="306" width="100" height="72" rx="12" fill="#FFFFFF"/>
+  <rect x="82" y="322" width="62" height="9" rx="4.5" fill="#0F2744" opacity="0.3"/>
+  <rect x="82" y="340" width="44" height="8" rx="4.0" fill="#0F2744" opacity="0.14"/>
+  <rect x="82" y="356" width="34" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="194" y="90" width="120" height="330" rx="18" fill="#FFFFFF" opacity="0.75"/>
+  <rect x="208" y="106" width="92" height="12" rx="6" fill="#A5B4FC"/>
+  <rect x="218" y="148" width="100" height="72" rx="12" fill="#0F2744" opacity="0.06"/><rect x="204" y="134" width="100" height="72" rx="12" fill="#FFFFFF"/>
+  <rect x="216" y="150" width="62" height="9" rx="4.5" fill="#0F2744" opacity="0.3"/>
+  <rect x="216" y="168" width="44" height="8" rx="4.0" fill="#0F2744" opacity="0.14"/>
+  <rect x="216" y="184" width="34" height="10" rx="5" fill="#A5B4FC"/>
+  <rect x="218" y="234" width="100" height="72" rx="12" fill="#0F2744" opacity="0.06"/><rect x="204" y="220" width="100" height="72" rx="12" fill="#FFFFFF"/>
+  <rect x="216" y="236" width="62" height="9" rx="4.5" fill="#0F2744" opacity="0.3"/>
+  <rect x="216" y="254" width="44" height="8" rx="4.0" fill="#0F2744" opacity="0.14"/>
+  <rect x="216" y="270" width="34" height="10" rx="5" fill="#A5B4FC"/>
+  <rect x="328" y="90" width="120" height="330" rx="18" fill="#FFFFFF" opacity="0.75"/>
+  <rect x="342" y="106" width="92" height="12" rx="6" fill="#4F46E5"/>
+  <rect x="352" y="148" width="100" height="72" rx="12" fill="#0F2744" opacity="0.06"/><rect x="338" y="134" width="100" height="72" rx="12" fill="#FFFFFF"/>
+  <rect x="350" y="150" width="62" height="9" rx="4.5" fill="#0F2744" opacity="0.3"/>
+  <rect x="350" y="168" width="44" height="8" rx="4.0" fill="#0F2744" opacity="0.14"/>
+  <rect x="350" y="184" width="34" height="10" rx="5" fill="#4F46E5"/>
+  <rect x="352" y="234" width="100" height="72" rx="12" fill="#0F2744" opacity="0.06"/><rect x="338" y="220" width="100" height="72" rx="12" fill="#FFFFFF"/>
+  <rect x="350" y="236" width="62" height="9" rx="4.5" fill="#0F2744" opacity="0.3"/>
+  <rect x="350" y="254" width="44" height="8" rx="4.0" fill="#0F2744" opacity="0.14"/>
+  <rect x="350" y="270" width="34" height="10" rx="5" fill="#4F46E5"/>
+  <rect x="462" y="90" width="120" height="330" rx="18" fill="#FFFFFF" opacity="0.75"/>
+  <rect x="476" y="106" width="92" height="12" rx="6" fill="#178A45"/>
+  <rect x="486" y="148" width="100" height="72" rx="12" fill="#0F2744" opacity="0.06"/><rect x="472" y="134" width="100" height="72" rx="12" fill="#FFFFFF"/>
+  <rect x="484" y="150" width="62" height="9" rx="4.5" fill="#0F2744" opacity="0.3"/>
+  <rect x="484" y="168" width="44" height="8" rx="4.0" fill="#0F2744" opacity="0.14"/>
+  <rect x="484" y="184" width="34" height="10" rx="5" fill="#178A45"/>
+  <path d="M188 260 l-8 -6 v12 z" fill="#1885FA"/>
+  <path d="M322 260 l-8 -6 v12 z" fill="#1885FA"/>
+  <path d="M456 260 l-8 -6 v12 z" fill="#1885FA"/>
+  <rect x="614" y="164" width="160" height="170" rx="18" fill="#0F2744" opacity="0.06"/><rect x="600" y="150" width="160" height="170" rx="18" fill="#FFFFFF"/>
+  <path d="M600 168 Q600 150 618 150 H742 Q760 150 760 168 V196 H600 Z" fill="#0F2744"/>
+  <rect x="630" y="138" width="10" height="26" rx="5" fill="#1885FA"/><rect x="720" y="138" width="10" height="26" rx="5" fill="#1885FA"/>
+  <rect x="616" y="212" width="26" height="24" rx="6" fill="#F4F7FA"/>
+  <rect x="650" y="212" width="26" height="24" rx="6" fill="#EF4444"/>
+  <rect x="684" y="212" width="26" height="24" rx="6" fill="#F4F7FA"/>
+  <rect x="718" y="212" width="26" height="24" rx="6" fill="#F4F7FA"/>
+  <rect x="616" y="244" width="26" height="24" rx="6" fill="#F4F7FA"/>
+  <rect x="650" y="244" width="26" height="24" rx="6" fill="#F4F7FA"/>
+  <rect x="684" y="244" width="26" height="24" rx="6" fill="#F59E0B"/>
+  <rect x="718" y="244" width="26" height="24" rx="6" fill="#F4F7FA"/>
+  <rect x="616" y="276" width="26" height="24" rx="6" fill="#F4F7FA"/>
+  <rect x="650" y="276" width="26" height="24" rx="6" fill="#F4F7FA"/>
+  <rect x="684" y="276" width="26" height="24" rx="6" fill="#F4F7FA"/>
+  <rect x="718" y="276" width="26" height="24" rx="6" fill="#F4F7FA"/>
+  <circle cx="720" cy="380" r="36" fill="#4F46E5"/><path d="M704 380 l11 11 l22 -24" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

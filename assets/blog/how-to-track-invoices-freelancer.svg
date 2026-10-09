@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img">
+  <title>Invoice sheet beside paid, open and overdue status cards and a reminder envelope</title>
+  <path fill="#178A45" d="M70 52 L72.16 61.84 L82 64 L72.16 66.16 L70 76 L67.84 66.16 L58 64 L67.84 61.84 Z"/>
+  <path fill="#1885FA" d="M430 32 L431.44 38.56 L438 40 L431.44 41.44 L430 48 L428.56 41.44 L422 40 L428.56 38.56 Z"/>
+  <path fill="#178A45" d="M756 73 L757.98 82.02 L767 84 L757.98 85.98 L756 95 L754.02 85.98 L745 84 L754.02 82.02 Z"/>
+  <path fill="#86EFAC" d="M52 428 L53.44 434.56 L60 436 L53.44 437.44 L52 444 L50.56 437.44 L44 436 L50.56 434.56 Z"/>
+  <rect x="110" y="66" width="290" height="400" rx="22" fill="#0F2744" opacity="0.06"/><rect x="96" y="52" width="290" height="400" rx="22" fill="#FFFFFF"/>
+  <path d="M96 74 Q96 52 118 52 H364 Q386 52 386 74 V104 H96 Z" fill="#0F2744"/>
+  <rect x="116" y="72" width="90" height="12" rx="6.0" fill="#FFFFFF" opacity="0.35"/>
+  <rect x="300" y="72" width="64" height="12" rx="6.0" fill="#1885FA" opacity="0.95"/>
+  <rect x="116" y="130" width="110" height="10" rx="5.0" fill="#0F2744" opacity="0.18"/>
+  <rect x="300" y="130" width="64" height="10" rx="5.0" fill="#0F2744" opacity="0.28"/>
+  <rect x="116" y="166" width="147" height="10" rx="5.0" fill="#0F2744" opacity="0.18"/>
+  <rect x="300" y="166" width="64" height="10" rx="5.0" fill="#0F2744" opacity="0.28"/>
+  <rect x="116" y="202" width="124" height="10" rx="5.0" fill="#0F2744" opacity="0.18"/>
+  <rect x="300" y="202" width="64" height="10" rx="5.0" fill="#0F2744" opacity="0.28"/>
+  <rect x="116" y="238" width="161" height="10" rx="5.0" fill="#0F2744" opacity="0.18"/>
+  <rect x="300" y="238" width="64" height="10" rx="5.0" fill="#0F2744" opacity="0.28"/>
+  <rect x="116" y="274" width="138" height="10" rx="5.0" fill="#0F2744" opacity="0.18"/>
+  <rect x="300" y="274" width="64" height="10" rx="5.0" fill="#0F2744" opacity="0.28"/>
+  <line x1="116" y1="320" x2="366" y2="320" stroke="#E2E8F0" stroke-width="3"/>
+  <rect x="116" y="340" width="80" height="12" rx="6.0" fill="#0F2744" opacity="0.35"/>
+  <rect x="270" y="332" width="96" height="30" rx="8" fill="#0F2744"/>
+  <rect x="116" y="390" width="150" height="10" rx="5.0" fill="#0F2744" opacity="0.15"/>
+  <rect x="116" y="414" width="110" height="10" rx="5.0" fill="#0F2744" opacity="0.15"/>
+  <rect x="454" y="124" width="240" height="62" rx="16" fill="#0F2744" opacity="0.06"/><rect x="440" y="110" width="240" height="62" rx="16" fill="#FFFFFF"/>
+  <circle cx="474" cy="141" r="13" fill="#178A45"/>
+  <rect x="500" y="128" width="90" height="10" rx="5.0" fill="#0F2744" opacity="0.25"/>
+  <rect x="500" y="146" width="60" height="8" rx="4.0" fill="#0F2744" opacity="0.12"/>
+  <rect x="604" y="127" width="62" height="28" rx="14" fill="#D8F3E4"/>
+  <rect x="618" y="137" width="34" height="8" rx="4.0" fill="#178A45" opacity="0.9"/>
+  <rect x="454" y="208" width="240" height="62" rx="16" fill="#0F2744" opacity="0.06"/><rect x="440" y="194" width="240" height="62" rx="16" fill="#FFFFFF"/>
+  <circle cx="474" cy="225" r="13" fill="#2563EB"/>
+  <rect x="500" y="212" width="90" height="10" rx="5.0" fill="#0F2744" opacity="0.25"/>
+  <rect x="500" y="230" width="60" height="8" rx="4.0" fill="#0F2744" opacity="0.12"/>
+  <rect x="604" y="211" width="62" height="28" rx="14" fill="#DBEAFE"/>
+  <rect x="618" y="221" width="34" height="8" rx="4.0" fill="#2563EB" opacity="0.9"/>
+  <rect x="454" y="292" width="240" height="62" rx="16" fill="#0F2744" opacity="0.06"/><rect x="440" y="278" width="240" height="62" rx="16" fill="#FFFFFF"/>
+  <circle cx="474" cy="309" r="13" fill="#DC2626"/>
+  <rect x="500" y="296" width="90" height="10" rx="5.0" fill="#0F2744" opacity="0.25"/>
+  <rect x="500" y="314" width="60" height="8" rx="4.0" fill="#0F2744" opacity="0.12"/>
+  <rect x="604" y="295" width="62" height="28" rx="14" fill="#FEE2E2"/>
+  <rect x="618" y="305" width="34" height="8" rx="4.0" fill="#DC2626" opacity="0.9"/>
+  <g transform="rotate(8 610 400)"><rect x="520" y="352" width="180" height="110" rx="12" fill="#FFFFFF"/><path d="M520 364 L610 420 L700 364" fill="none" stroke="#178A45" stroke-width="6" stroke-linejoin="round"/><circle cx="690" cy="360" r="18" fill="#F59E0B"/><rect x="687" y="348" width="6" height="16" rx="3" fill="#FFFFFF"/><rect x="687" y="367" width="6" height="6" rx="3" fill="#FFFFFF"/></g>
+</svg>
