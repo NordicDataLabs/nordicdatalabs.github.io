@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img">
+  <title>Calculator showing an hourly rate beside a price tag and stacks of coins</title>
+  <path fill="#DB2777" d="M70 58 L72.16 67.84 L82 70 L72.16 72.16 L70 82 L67.84 72.16 L58 70 L67.84 67.84 Z"/>
+  <path fill="#1885FA" d="M420 38 L421.44 44.56 L428 46 L421.44 47.44 L420 54 L418.56 47.44 L412 46 L418.56 44.56 Z"/>
+  <path fill="#DB2777" d="M752 79 L753.98 88.02 L763 90 L753.98 91.98 L752 101 L750.02 91.98 L741 90 L750.02 88.02 Z"/>
+  <path fill="#F9A8D4" d="M56 432 L57.44 438.56 L64 440 L57.44 441.44 L56 448 L54.56 441.44 L48 440 L54.56 438.56 Z"/>
+  <rect x="104" y="84" width="300" height="380" rx="28" fill="#0F2744" opacity="0.06"/><rect x="90" y="70" width="300" height="380" rx="28" fill="#0F2744"/>
+  <rect x="118" y="98" width="244" height="90" rx="14" fill="#16355C"/>
+  <text x="340" y="160" text-anchor="end" font-family="Figtree,Arial,sans-serif" font-weight="800" font-size="46" fill="#FFFFFF">62.00</text>
+  <rect x="134" y="116" width="60" height="8" rx="4.0" fill="#FFFFFF" opacity="0.3"/>
+  <rect x="118" y="208" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="142" y="227" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="202" y="208" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="226" y="227" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="286" y="208" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="310" y="227" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="118" y="266" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="142" y="285" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="202" y="266" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="226" y="285" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="286" y="266" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="310" y="285" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="118" y="324" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="142" y="343" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="202" y="324" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="226" y="343" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="286" y="324" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="310" y="343" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="118" y="382" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="142" y="401" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="202" y="382" width="72" height="46" rx="10" fill="#16355C"/>
+  <rect x="226" y="401" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="286" y="382" width="72" height="46" rx="10" fill="#DB2777"/>
+  <rect x="310" y="401" width="24" height="8" rx="4.0" fill="#FFFFFF" opacity="0.9"/>
+  <g transform="rotate(-12 600 250)"><path d="M470 170 H690 Q712 170 712 192 V308 Q712 330 690 330 H470 L420 250 Z" fill="#FFFFFF"/><path d="M470 170 H690 Q712 170 712 192 V308 Q712 330 690 330 H470 L420 250 Z" fill="none" stroke="#FBCFE8" stroke-width="4"/><circle cx="462" cy="250" r="12" fill="#FBCFE8"/><text x="590" y="262" text-anchor="middle" font-family="Figtree,Arial,sans-serif" font-weight="800" font-size="58" fill="#0F2744">€/h</text><rect x="530" y="284" width="120" height="10" rx="5.0" fill="#DB2777" opacity="0.85"/></g>
+  <ellipse cx="560" cy="400" rx="30" ry="11" fill="#1885FA"/>
+  <ellipse cx="560" cy="384" rx="30" ry="11" fill="#2563EB"/>
+  <ellipse cx="560" cy="368" rx="30" ry="11" fill="#1885FA"/>
+  <ellipse cx="560" cy="366" rx="30" ry="11" fill="#7FB2EC"/>
+  <ellipse cx="620" cy="410" rx="30" ry="11" fill="#1885FA"/>
+  <ellipse cx="620" cy="394" rx="30" ry="11" fill="#2563EB"/>
+  <ellipse cx="620" cy="392" rx="30" ry="11" fill="#7FB2EC"/>
+  <ellipse cx="680" cy="396" rx="30" ry="11" fill="#1885FA"/>
+  <ellipse cx="680" cy="380" rx="30" ry="11" fill="#2563EB"/>
+  <ellipse cx="680" cy="364" rx="30" ry="11" fill="#1885FA"/>
+  <ellipse cx="680" cy="362" rx="30" ry="11" fill="#7FB2EC"/>
+</svg>
