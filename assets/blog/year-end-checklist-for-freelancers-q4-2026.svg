@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img">
+  <title>Checklist beside October, November and December week planners</title>
+  <path fill="#4F46E5" d="M36 46 L38.16 55.84 L48 58 L38.16 60.16 L36 70 L33.84 60.16 L24 58 L33.84 55.84 Z"/>
+  <path fill="#1885FA" d="M748 36 L749.44 42.56 L756 44 L749.44 45.44 L748 52 L746.56 45.44 L740 44 L746.56 42.56 Z"/>
+  <path fill="#A5B4FC" d="M28 448 L29.44 454.56 L36 456 L29.44 457.44 L28 464 L26.56 457.44 L20 456 L26.56 454.56 Z"/>
+  <path fill="#4F46E5" d="M770 430 L771.98 439.02 L781 441 L771.98 442.98 L770 452 L768.02 442.98 L759 441 L768.02 439.02 Z"/>
+  <rect x="58" y="86" width="304" height="356" rx="26" fill="#0F2744" opacity="0.06"/>
+  <rect x="46" y="72" width="304" height="356" rx="26" fill="#FFFFFF"/>
+  <path d="M46 98 Q46 72 72 72 H324 Q350 72 350 98 V120 H46 Z" fill="#0F2744"/>
+  <circle cx="74" cy="96" r="5.5" fill="#FFFFFF" opacity="0.95"/>
+  <circle cx="92" cy="96" r="5.5" fill="#FFFFFF" opacity="0.55"/>
+  <circle cx="110" cy="96" r="5.5" fill="#FFFFFF" opacity="0.28"/>
+  <text x="326" y="108" text-anchor="end" font-family="Figtree, Inter, Arial, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Q4</text>
+  <rect x="70" y="148" width="36" height="36" rx="10" fill="#4F46E5"/>
+  <path d="M79 166 l6 7 l14 -15" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="122" y="156" width="168" height="10" rx="5" fill="#E6EEF6"/>
+  <rect x="122" y="174" width="96" height="8" rx="4" fill="#F4F7FA"/>
+  <rect x="70" y="204" width="36" height="36" rx="10" fill="#4F46E5"/>
+  <path d="M79 222 l6 7 l14 -15" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="122" y="212" width="140" height="10" rx="5" fill="#E6EEF6"/>
+  <rect x="122" y="230" width="78" height="8" rx="4" fill="#F4F7FA"/>
+  <rect x="70" y="260" width="36" height="36" rx="10" fill="#4F46E5"/>
+  <path d="M79 278 l6 7 l14 -15" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="122" y="268" width="184" height="10" rx="5" fill="#E6EEF6"/>
+  <rect x="122" y="286" width="110" height="8" rx="4" fill="#F4F7FA"/>
+  <rect x="70" y="316" width="36" height="36" rx="10" fill="#1885FA"/>
+  <rect x="122" y="324" width="120" height="10" rx="5" fill="#E6EEF6"/>
+  <rect x="122" y="342" width="72" height="8" rx="4" fill="#F4F7FA"/>
+  <rect x="70" y="372" width="36" height="36" rx="10" fill="#E4E4FC"/>
+  <rect x="122" y="380" width="156" height="10" rx="5" fill="#E6EEF6"/>
+  <rect x="122" y="398" width="88" height="8" rx="4" fill="#F4F7FA"/>
+  <rect x="400" y="78" width="352" height="112" rx="20" fill="#0F2744" opacity="0.06"/>
+  <rect x="388" y="66" width="352" height="112" rx="20" fill="#FFFFFF"/>
+  <circle cx="414" cy="96" r="7" fill="#4F46E5"/>
+  <text x="430" y="102" font-family="Figtree, Inter, Arial, sans-serif" font-weight="800" font-size="16" fill="#0F2744">OCT</text>
+  <rect x="410" y="120" width="36" height="36" rx="8" fill="#4F46E5"/>
+  <path d="M419 138 l5 6 l12 -13" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="454" y="120" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="498" y="120" width="36" height="36" rx="8" fill="#E4E4FC"/>
+  <rect x="542" y="120" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="586" y="120" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="630" y="120" width="36" height="36" rx="8" fill="#1885FA"/>
+  <rect x="674" y="120" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="400" y="208" width="352" height="112" rx="20" fill="#0F2744" opacity="0.06"/>
+  <rect x="388" y="196" width="352" height="112" rx="20" fill="#FFFFFF"/>
+  <circle cx="414" cy="226" r="7" fill="#6366F1"/>
+  <text x="430" y="232" font-family="Figtree, Inter, Arial, sans-serif" font-weight="800" font-size="16" fill="#0F2744">NOV</text>
+  <rect x="410" y="250" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="454" y="250" width="36" height="36" rx="8" fill="#E4E4FC"/>
+  <rect x="498" y="250" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="542" y="250" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="586" y="250" width="36" height="36" rx="8" fill="#4F46E5"/>
+  <rect x="630" y="250" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="674" y="250" width="36" height="36" rx="8" fill="#1885FA"/>
+  <rect x="400" y="338" width="352" height="112" rx="20" fill="#0F2744" opacity="0.06"/>
+  <rect x="388" y="326" width="352" height="112" rx="20" fill="#FFFFFF"/>
+  <circle cx="414" cy="356" r="7" fill="#1885FA"/>
+  <text x="430" y="362" font-family="Figtree, Inter, Arial, sans-serif" font-weight="800" font-size="16" fill="#0F2744">DEC</text>
+  <rect x="410" y="380" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="454" y="380" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="498" y="380" width="36" height="36" rx="8" fill="#E4E4FC"/>
+  <rect x="542" y="380" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="586" y="380" width="36" height="36" rx="8" fill="#A5B4FC"/>
+  <rect x="630" y="380" width="36" height="36" rx="8" fill="#F4F7FA"/>
+  <rect x="674" y="380" width="36" height="36" rx="8" fill="#0F2744"/>
+</svg>
